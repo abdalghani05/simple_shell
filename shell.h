@@ -18,12 +18,6 @@
 
 /* Points to an array of pointers to strings called the "environment" */
 extern char **environ;
-/**
- * struct sep_list_s - single linked list
- * @separator: ; | &
- * @next: next node
- * Description: single linked list to store separators
- */
 typedef struct sep_list_s
 {
 	char separator;
